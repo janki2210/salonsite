@@ -1,0 +1,1587 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg-white{
+    background-color: white;
+}
+/* left side */
+.profilebar{
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    float: left;
+    text-align: center;
+    overflow-x: hidden;
+    z-index: 1001;
+    transition: 0.5s;
+    box-shadow: 0 0 30px rgb(0 0 0 / 5%);
+    background: #e52e71;
+    background-image: linear-gradient(to bottom, #e52e71, #ff8a00);
+    color: white;
+}
+.profilebar .betty-logo{
+    text-align: center;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+.profilebar .betty-logo img{
+    width: 40px;
+    height: auto;
+    margin-bottom: 0px;
+}
+.profilebar .betty-logo h1{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1em;
+    /* margin-bottom: 15px; */
+}
+.profilebar .betty-logo h1 span{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: none;
+    font-weight: 500;
+    line-height: 1.75em;
+}
+.profilebar nav{
+    padding: 10px;
+}
+.profilebar nav ul{
+    margin:10px;
+    padding: 0;
+    list-style: none;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.profilebar nav ul li{
+    margin:10px;
+    padding: 10px;
+    border: 0;
+    list-style: none;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.096);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.profilebar nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.profilebar .contact-info{
+    padding: 10px 0;
+    margin-left: 10px;
+}
+.profilebar .contact-info .betty-inner{
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+.profilebar .contact-info .betty-inner .icon{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    float: left;
+    color: #fff;
+    opacity: 0.9;
+}
+.profilebar .contact-info .betty-inner .time{
+    overflow: hidden;
+    float: left;
+}
+.profilebar .contact-info .betty-inner .time h5{
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    font-family: 'Rambla', sans-serif;
+    color: #fff;
+}
+.profilebar .contact-info .betty-inner .time h6{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    font-family: 'Rambla', sans-serif;
+}
+ .profilebar .footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+ .profilebar .footer ul{
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 0;
+    position: relative;
+    list-style-type: none;
+}
+ .profilebar .footer ul::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.096);
+    top: 50%;
+    margin-top: -1px;
+    right: 100%;
+}
+.profilebar .footer ul::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.096);
+    top: 50%;
+    margin-top: -1px;
+    right: auto;
+    left: 100%;
+}
+ .profilebar .footer ul li{
+    display: inline-block;
+    margin-right: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.09);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+ .profilebar .footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.profilebar .footer ul li:hover{
+    transition: 1s;
+    background-color: rgb(243, 10, 99);
+}
+
+
+/* right side */
+.betty-main{
+    width: 75%;
+    float: right;
+    background-color: rgba(255, 160, 122, 0.308);
+}
+/* home section */
+.betty-main .betty-home{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/HD_Bridal_Makeup_or_Airbrush_Bridal_Makeup-1024x683.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.betty-main .betty-home:hover{
+    transition: 3s;
+    background-image: url(..//img/Fashion-girl-makeup-and-beautiful-hair-HD-picture-01.jpg);
+}
+.betty-main .betty-home .betty-homecontainer{
+    width: 100%;
+}
+.betty-main .betty-home .betty-homecontainer .betty-homerow{
+    width: 100%;
+    clear: both;
+}
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox{
+    width:33.333%;
+    float: left;
+    box-sizing: border-box;
+}
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox{
+    text-align: left;
+    position: absolute;
+    width: 50%;
+    height: 190px;
+    bottom: -100%;
+    background-color:white;
+    padding: 20px;
+    margin: 20px;
+    border-radius:10px 10px;
+}
+.betty-main .betty-home:hover .betty-homecontainer .betty-homerow .homebox .homesubbox{
+    bottom: 0;
+    transition: 1s;
+}
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox h2{
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 600;
+}
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox p{
+    font-size: 15px;
+    padding: 10px;
+    color: gray;
+}
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox button{
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 15px;
+    border-radius: 50px;
+    background-color: #e52e71;
+}
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox button:hover{
+    transition: 1s;
+    background-color: orange;
+}
+/* .betty-main .betty-home button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 40px;
+    background-color: rgb(219, 10, 115);
+    text-align: center;
+    border: none;
+    margin-left: 10px;
+    display: none;
+}
+.betty-main .betty-home button span {
+    display: block;
+    height: 1px;
+    text-align: center;
+    width: 70%;
+    background-color: white;
+    margin: 5px 0px;
+    margin-left: 7px;
+} */
+/* about section */
+.betty-main .about{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.betty-main .about h3{
+    color: rgb(199, 26, 113);
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -100%;
+    transition: 1.5s;
+}
+.betty-main:hover h3{
+    left: 0;
+}
+.betty-main .about h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 25px;
+    position: relative;
+    transition: 1.5s;
+    left: -100%;
+    overflow: hidden;
+}
+.betty-main:hover h4{
+    left: 0;
+}
+.betty-main .aboutcontainer{
+    width: 100%;
+}
+.betty-main .aboutrow{
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+.betty-main .aboutcontainer .aboutrow .aboutbox{
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.betty-main .aboutcontainer .aboutrow .aboutbox .aboutsubbox{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+}
+.betty-main .aboutcontainer .aboutrow .aboutbox .aboutsubbox img{
+    width: 100%;
+    height: 500px;
+}
+.betty-main .aboutcontainer .aboutrow .aboutbox .aboutsubbox p{
+    text-align: justify;
+    font-size: 18px;
+    margin: 10px;
+    font-weight: 500;
+}
+.betty-main .aboutcontainer .aboutrow .aboutbox .aboutsubbox h1{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+.betty-main .aboutcontainer .aboutrow .aboutbox .aboutsubbox span{
+    float: left;
+    color: #e52e71;
+    font-size: 20px;
+    margin-bottom:10px;
+    margin-left: 10px;
+}
+/* team section */
+.betty-main .team{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.betty-main .team h3{
+    color: rgb(199, 26, 113);
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -100%;
+    transition: 1.5s;
+}
+.betty-main:hover h3{
+    left: 0;
+}
+.betty-main .team h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 25px;
+    position: relative;
+    transition: 1.5s;
+    left: -100%;
+    overflow: hidden;
+}
+.betty-main:hover h4{
+    left: 0;
+}
+.betty-main .team .teamcontainer{
+    width: 100%;
+}
+.betty-main .team .teamcontainer .teamrow{
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+.betty-main .team .teamcontainer .teamrow .teambox{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox{
+    text-align:center;
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox img{
+    width: 41%;
+    height: 181px;
+    position: absolute;
+    overflow: hidden;
+    left: 5%;
+    top: 4%;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox h1{
+    float: right;
+    margin: 10px;
+    position: absolute;
+    left: 56%;
+    top: 16%;
+    font-size: 20px;
+}
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox h2{
+    float: right;
+    margin: 10px;
+    font-size: 15px;
+    left: 56%;
+    top: 29%;
+    position: absolute;
+    color: rgb(233, 12, 122);
+}
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox p{
+    float: right;
+    margin: 10px;
+    font-size: 15px;
+    left: 56%;
+    top: 40%;
+    position: absolute;
+    text-align: justify;
+    font-size: 17px;
+}
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox .socialbar{
+    position: absolute;
+    top: 77%;
+    left: 55%;
+    font-size: 19px;
+    box-sizing: border-box;
+}
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox .socialbar span{
+    padding: 10px;
+}
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox .socialbar span i{
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid rgb(230, 11, 120);
+    color: rgb(230, 11, 120);
+    padding: 10px;
+}
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox .socialbar i:hover{
+    transition: 1s;
+    background-color: rgb(243, 10, 99);
+    color: white;
+}
+
+/* services section */
+.betty-main .services{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.betty-main .services h3{
+    color: rgb(199, 26, 113);
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -100%;
+    transition: 1.5s;
+}
+.betty-main:hover h3{
+    left: 0;
+}
+.betty-main .services h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 25px;
+    position: relative;
+    transition: 1.5s;
+    left: -100%;
+    overflow: hidden;
+}
+.betty-main:hover h4{
+    left: 0;
+}
+.betty-main .servicescontainer{
+    width:100%;
+}
+.betty-main .servicescontainer .servicesrow{
+    width: 100%;
+    /* clear: both; */
+    margin-top: 10px;
+}
+.betty-main .servicescontainer .servicesrow .servicesbox{
+    width: 33.333%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.betty-main .servicescontainer .servicesrow .servicesbox .servicessubbox{
+    position: relative;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+}
+.betty-main .servicescontainer .servicesrow .servicesbox .servicessubbox img{
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.betty-main .servicescontainer .servicesrow .servicesbox .servicessubbox:hover img {
+    transform: scale(1.1, 1.1);
+    transition: 1s;
+}
+.betty-main .servicescontainer .servicesrow .servicesbox .servicessubbox img::after {
+    content: '';
+    position: absolute;
+}
+.betty-main .servicescontainer .servicesrow .servicesbox .servicessubbox::before{
+    content: '';
+    height: 200px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.226);
+    position: absolute;
+    transition: 1s;
+    top: 100%;
+    right: 100%;
+}
+.betty-main .servicescontainer .servicesrow .servicesbox .servicessubbox:hover::before {
+    height: 98%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: 1s;
+    z-index: 1;
+}
+.betty-main .servicescontainer .servicesrow .servicesbox .servicessubbox .servicesicon{
+    position: absolute;
+    bottom: -45%;
+    width: 95%;
+    text-align: center;
+    height: 160px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.betty-main .servicescontainer .servicesrow .servicesbox .servicessubbox:hover .servicesicon {
+    bottom: 0px;
+    transition: 2s;
+    transform: scale(1.1, 1.1);
+}
+.betty-main .servicescontainer .servicesrow .servicesbox .servicessubbox .servicesicon h6{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+.betty-main .servicescontainer .servicesrow .servicesbox .servicessubbox .servicesicon span{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    margin-top: 30px;
+}
+/* makeup section */
+.betty-main .makeup{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.betty-main .makeup h3{
+    color: rgb(199, 26, 113);
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -100%;
+    transition: 1.5s;
+}
+.betty-main:hover h3{
+    left: 0;
+}
+.betty-main .makeup h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 25px;
+    position: relative;
+    transition: 1.5s;
+    left: -100%;
+    overflow: hidden;
+}
+.betty-main:hover h4{
+    left: 0;
+}
+.betty-main .makeup .makeupcontainer{
+    width: 100%;
+}
+.betty-main .makeup .makeupcontainer .makeuprow{
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+.betty-main .makeup .makeupcontainer .makeuprow .makeupbox{
+    width: 33.333%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.betty-main .makeup .makeupcontainer .makeuprow .makeupbox .makeupsubbox{
+    position: relative;
+    text-align: left;
+    background: #fff;
+    overflow: hidden;
+    cursor: pointer;
+}
+.betty-main .makeup .makeupcontainer .makeuprow .makeupbox .makeupsubbox:hover {
+    z-index: 100;
+    transition: 1s;
+    border-bottom: 5px solid #e52e71;
+}
+.betty-main .makeup .makeupcontainer .makeuprow .makeupbox .makeupsubbox .makeupicon{
+    font-size: 42px;
+    color: #e52e71;
+    float: left;
+    width: 100%;
+    transition: all 200ms ease-in-out;
+}
+.betty-main .makeup .makeupcontainer .makeuprow .makeupbox .makeupsubbox .makeupicon img{
+    width: 30%;
+    height: 100px;
+    margin: 10px;
+}
+.makeupsubbox:hover .makeupicon {
+    opacity: 0;
+    transform: translate3d(0, -67px, 0);
+}
+.betty-main .makeup .makeupcontainer .makeuprow .makeupbox .makeupsubbox .makeuptext{
+    display: inline-block;
+    vertical-align: bottom;
+    transition: transform .2s ease-in-out;
+}
+.makeupsubbox:hover .makeuptext{
+    transform: translate3d(0, -67px, 0);
+}
+.betty-main .makeup .makeupcontainer .makeuprow .makeupbox .makeupsubbox .makeuptext h6{
+    color: #000;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin:0 10px;
+    font-size: 23px;
+}
+.betty-main .makeup .makeupcontainer .makeuprow .makeupbox .makeupsubbox .makeuptext p{
+    color: #666;
+    margin-bottom: -68px;
+    padding: 10px;
+    text-align: justify;
+}
+.makeupsubbox:hover .makeuptext p {
+    opacity: 1;
+}
+/* latest news section */
+.betty-main .latest-news{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.betty-main .latest-news h3{
+    color: rgb(199, 26, 113);
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -100%;
+    transition: 1.5s;
+}
+.betty-main:hover h3{
+    left: 0;
+}
+.betty-main .latest-news h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 25px;
+    position: relative;
+    transition: 1.5s;
+    left: -100%;
+    overflow: hidden;
+}
+.betty-main:hover h4{
+    left: 0;
+}
+.betty-main .latest-news .latest-newscontainer{
+    width: 100%;
+}
+.betty-main .latest-news .latest-newscontainer .latest-newsrow{
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox{
+    width: 33.333%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox{
+    text-align: left;
+    padding:10px;
+    overflow: auto;
+}
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .header{
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .header img{
+    width: 100%;
+    height: 200px;
+}
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .header img:hover{
+    transition:all 1s ease-in-out;
+    transform:scale(1.1);
+}
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .title{
+    padding: 10px;
+    background-color: white;
+}
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .title h6{
+    font-size: 15px;
+    color: gray;
+    margin: 10px;
+    text-transform: capitalize;
+}
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .title h2{
+    font-size: 18px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .newsfooter{
+    height: 20px;
+    padding: 10px;
+    background-color: white;
+}
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox .newssubbox .newsfooter h6{
+    font-size: 15px;
+    color: gray;
+    text-align: right;
+    text-transform: capitalize;
+}
+.betty-main .latest-news .btn{
+    height: 50px;
+    width: 150px;
+    margin-bottom: 26px;
+    border: none;
+    background-color: rgb(243, 10, 99);
+    margin-top: 18px;
+    margin-left: 300px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.betty-main .latest-news .btn:hover{
+    background-color: orange;
+    transition: 1s;
+}
+/* testimonial section*/
+.betty-main .testimonial{
+    width: 100%;
+    height: 400px;
+    padding-top: 60px;
+    padding-bottom: 126px;
+    margin: auto;
+    background-image: url(../img/massage-self-care-routine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+.betty-main .testimonial .testimonialcontainer{
+    width: 100%;
+}
+.betty-main .testimonial .testimonialcontainer .testimonialrow{
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+.betty-main .testimonial .testimonialcontainer .testimonialrow .testimonialboxs{
+    width: 33.333%;
+    float: left;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+.betty-main .testimonial .testimonialcontainer .testimonialrow .testimonialboxs .testimonialsubbox{
+    overflow: auto;
+    text-align: center;
+    background-color: rgba(227, 225, 238, 0);
+}
+.betty-main .testimonial .testimonialcontainer .testimonialrow .testimonialboxs .testimonialsubbox h1{
+    color: rgb(199, 26, 113);
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    /* padding-top: 50px; */
+    padding-left: 40px;
+}
+.betty-main .testimonial .testimonialcontainer .testimonialrow .testimonialboxs .testimonialsubbox p{
+    color: grey;
+    text-align: justify;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+.betty-main .testimonial .testimonialcontainer .testimonialrow .testimonialboxs .testimonialsubbox .testimonialbox{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.betty-main .testimonial .testimonialcontainer .testimonialrow .testimonialboxs .testimonialsubbox .testimonialbox p{
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+.betty-main .testimonial .testimonialcontainer .testimonialrow .testimonialboxs .testimonialsubbox .testimonialbox .footer2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.betty-main .testimonial .testimonialcontainer .testimonialrow .testimonialboxs .testimonialsubbox .testimonialbox .footer2 img{
+    width: 20%;
+    height: 58px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.betty-main .testimonial .testimonialcontainer .testimonialrow .testimonialboxs .testimonialsubbox .testimonialbox .footer2 h2{
+    font-size: 17px;
+    font-style: normal;
+    padding:10px 0 0 0;
+}
+.betty-main .testimonial .testimonialcontainer .testimonialrow .testimonialboxs .testimonialsubbox .testimonialbox .footer2 p{
+    padding: 0 0 0 10px;
+    font-size: 17px;
+    font-style: normal;
+    float: left;
+}
+/* brands section */
+.betty-main .brands{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.betty-main .brands h3{
+    color: rgb(199, 26, 113);
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -100%;
+    transition: 1.5s;
+}
+.betty-main:hover h3{
+    left: 0;
+}
+.betty-main .brands h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 25px;
+    position: relative;
+    transition: 1.5s;
+    left: -100%;
+    overflow: hidden;
+}
+.betty-main:hover h4{
+    left: 0;
+}
+.betty-main .brands .brandscontainer{
+    width: 100%;
+}
+.betty-main .brands .brandscontainer .brandsrow{
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+.betty-main .brands .brandscontainer .brandsrow .brandsbox{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.betty-main .brands .brandscontainer .brandsrow .brandsbox .brandsubbox{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.betty-main .brands .brandscontainer .brandsrow .brandsbox .brandsubbox img{
+    width: 100%;
+    height: 100px;
+}
+/* blog section */
+.betty-main .blog{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.betty-main .blog h3{
+    color: rgb(199, 26, 113);
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -100%;
+    transition: 1.5s;
+}
+.betty-main:hover h3{
+    left: 0;
+}
+.betty-main .blog h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 25px;
+    position: relative;
+    transition: 1.5s;
+    left: -100%;
+    overflow: hidden;
+}
+.betty-main:hover h4{
+    left: 0;
+}
+.betty-main .blog .blogcontainer{
+    width: 100%;
+}
+.betty-main .blog .blogcontainer .blogrow{
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+.betty-main .blog .blogcontainer .blogrow .blogbox{
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.betty-main .blog .blogcontainer .blogrow .blogbox .blogsubbox{
+    text-align: left;
+    padding:10px;
+    overflow: auto;
+}
+.betty-main .blog .blogcontainer .blogrow .blogbox .blogsubbox .header{
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+.betty-main .blog .blogcontainer .blogrow .blogbox .blogsubbox .header img{
+    width: 100%;
+    height: 300px;
+}
+.betty-main .blog .blogcontainer .blogrow .blogbox .blogsubbox .header img:hover{
+    transition:all 1s ease-in-out;
+    transform:scale(1.1);
+}
+.betty-main .blog .blogcontainer .blogrow .blogbox .blogsubbox .title{
+    padding: 10px;
+    background-color: white;
+}
+.betty-main .blog .blogcontainer .blogrow .blogbox .blogsubbox .title h6{
+    font-size: 15px;
+    color: gray;
+    margin: 10px;
+    text-transform: capitalize;
+}
+.betty-main .blog .blogcontainer .blogrow .blogbox .blogsubbox .title h2{
+    font-size: 22px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+.betty-main .blog .blogcontainer .blogrow .blogbox .blogsubbox .title p{
+    font-size: 16px;
+    margin: 10px;
+    color: gray;
+}
+.betty-main .blog .blogboxs{
+    width: 30%;
+    /* height:100vh; */
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+}
+.betty-main .blog .blogboxs .blogsubboxs{
+    text-align:left;
+    /* overflow: auto; */
+    position: relative;
+    overflow: hidden;
+}
+.betty-main .blog .blogboxs .blogsubboxs .searchbox{
+    width: 53%;
+    height: 29px;
+    margin: 10px 5px;
+    padding: 0 5px;
+   display: block;
+}
+.betty-main .blog .blogboxs .btn{
+    position: absolute;
+    top: 157px;
+    left: 88%;
+    height: 33px;
+    width: 5%;
+    font-size: 16px;
+    border: none;
+    background: rgb(229, 46, 113);
+}
+.betty-main .blog .blogboxs .btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.betty-main .blog .blogboxs h5{
+    color: rgb(228, 13, 120);
+    font-size: 25px;
+    margin: 10px;
+}
+.betty-main .blog .blogboxs .searchbar{
+    margin: 10px;
+}
+.betty-main .blog .blogboxs .searchbar nav ul{
+    list-style-type: none;
+}
+.betty-main .blog .blogboxs .searchbar nav ul li{
+    width: 80%;
+    line-height:30px;
+    padding: 10px 0;
+    text-align: left;
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.betty-main .blog .blogboxs .searchbar nav ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.betty-main .blog .blogboxs .searchbar nav ul li a:hover{
+    color: rgb(228, 13, 120);
+    transition: 1s;
+}
+.betty-main .blog .blogboxs .searchbar button{
+    width: 39%;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    color: gray;
+}
+.betty-main .blog .blogboxs .searchbar button:hover{
+    background-color: rgb(228, 13, 120);
+    transition: 1s;
+    color: white;
+}
+/* contact */
+.betty-main .contact{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.betty-main .contact h3{
+    color: rgb(199, 26, 113);
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -100%;
+    transition: 1.5s;
+}
+.betty-main:hover h3{
+    left: 0;
+}
+.betty-main .contact h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 25px;
+    position: relative;
+    transition: 1.5s;
+    left: -100%;
+    overflow: hidden;
+}
+.betty-main:hover h4{
+    left: 0;
+}
+.betty-main .contact .map{
+    margin: 10px;
+    text-align: center;
+}
+.betty-main .contact .map img{
+    width: 100%;
+    height: 550px;
+}
+.betty-main .contact .contactcontainer{
+    width: 100%;
+}
+.betty-main .contact .contactcontainer .contactrow{
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+.betty-main .contact .contactcontainer .contactrow .contactbox{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox{
+    text-align:left;
+    overflow: auto;
+    padding: 10px;
+}
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox .iconbar{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    float: left;
+    color: #e52e71;
+}
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox .contacttext{
+    overflow: hidden;
+    position: absolute;
+    left: 34%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox .contacttext h5{
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Rambla', sans-serif;
+    color: #000;
+}
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox .contacttext h6 {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    font-family: 'Rambla', sans-serif;
+}
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox .contactdetails{
+    height: 20px;
+    border: 1px solid darkslategrey;
+    margin: 0px 5px;
+    float: left;
+    text-align: left;
+    padding: 10px 10px;
+}
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox .msgbox{
+    width: 89%;
+    height: 90px;
+    border: 1px solid darkslategrey;
+    margin: 18px 5px;
+    text-align: left;
+    padding: 10px 10px;
+}
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox button{
+    height: 50px;
+    padding:10px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(243, 10, 99);
+    color: white;
+    font-size: 15px;
+    border-radius: 40px;
+}
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox button:hover{
+    transition: 1s;
+    background-color: orange;
+}
+/* footer */
+.betty-main .footer1{
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+    color: white;
+    background: #e52e71;
+}
+.betty-main .footer1 .betty-logo{
+    text-align: center;
+    padding: 0;
+    display: block;
+    width: 100%;
+    margin: 10px;
+}
+.betty-main .footer1 .betty-logo img{
+    width: 40px;
+    height: auto;
+    margin-top: 10px;
+}
+.betty-main .footer1 .betty-logo h1{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+.betty-main .footer1 .betty-logo h1 span{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: none;
+    font-weight: 500;
+    line-height: 1.75em;
+}
+.betty-main .footer1 p{
+    /* font-style: italic; */
+    padding-top: 5px;
+}
+
+
+
+/* responsive */
+/* mobile view */
+/* left side */
+@media screen and (max-width:426px){
+.profilebar {
+    display: none;
+}
+}
+/* right side */
+@media screen and (max-width:426px){
+.betty-main {
+    width: 100%;
+}
+}
+/* home section */
+/* @media screen and (max-width: 426px){
+.betty-main .betty-home button {
+    display:block;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 1;
+}
+} */
+@media screen and (max-width:426px) {
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox{
+ width: 76%;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .betty-home .betty-homecontainer .betty-homerow .homebox .homesubbox button{
+  margin: 5px;
+  padding: 10px;
+}
+}
+/* about section */
+@media screen and (max-width:426px){
+.betty-main .aboutcontainer .aboutrow .aboutbox{
+   width: 100%;
+}
+}
+/* team section */
+@media screen and (max-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox{
+       width: 100%;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox{
+        text-align: center;
+        height: 335px;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox img{
+    position: absolute;
+    width: 37%;
+    height: 101px;
+    left: 27%;
+    top: -1%;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox h1{
+    position: absolute;
+    top:34%;
+    left: 28%;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox h2{
+        position: absolute;
+        top: 42%;
+        left: 28%;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox p{
+        position: absolute;
+        top: 51%;
+        left: 2%;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox .socialbar{
+    position: absolute;
+    top:79%;
+    left: 19%;
+}
+}
+/* testimonial section */
+@media screen and (max-width:426px){
+.betty-main .testimonial {
+    width: 100%;
+    height: 100vh;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .testimonial .testimonialcontainer .testimonialrow .testimonialboxs{ 
+    width: 100%;
+}
+}
+/* brands section */
+@media screen and (max-width:426px){
+.betty-main .brands .brandscontainer .brandsrow .brandsbox{
+    width: 100%;
+}
+}
+/* services section */
+@media screen and (max-width: 426px){
+.betty-main .services h3 {
+    margin-top: 15px;
+    font-size: 30px;
+}
+}
+@media screen and (max-width: 426px){
+.betty-main .services h4 {
+    font-size: 20px;
+}
+}
+@media screen and (max-width: 426px){
+.betty-main .services .servicescontainer .servicesrow .servicesbox{
+    width:100%;
+}
+}
+/* makeup section */
+@media screen and (max-width:426px) {
+.betty-main .makeup .makeupcontainer .makeuprow .makeupbox{
+   width: 100%;
+}
+}
+@media screen and (max-width:426px) {
+.betty-main .makeup .makeupcontainer .makeuprow .makeupbox .makeupsubbox .makeuptext p{
+    margin-bottom: -92px;
+}  
+}
+/* latest news section */
+@media screen and (max-width:426px){
+.betty-main .latest-news .latest-newscontainer .latest-newsrow .latestnewsbox{
+    width: 100%;
+}  
+}
+@media screen and (max-width:426px) {
+.betty-main .latest-news .btn{
+    margin: 20px auto;
+    display: block;
+}
+}
+/* blog section */
+@media screen and (max-width:426px){
+.betty-main .blog .blogcontainer .blogrow .blogbox{
+    width: 100%;
+}   
+}
+@media screen and (max-width:426px){
+.betty-main .blog .blogboxs .blogsubboxs{
+            text-align:left;
+            position: relative;
+}
+}
+@media screen and (max-width:426px){
+.betty-main .blog .blogboxs .btn{
+        display: none;
+}
+}
+@media screen and (max-width:426px) {
+.betty-main .blog .blogboxs{
+   width: 100%;
+   margin: 10px;
+}
+}
+/* contact section */
+@media screen and (max-width:426px) {
+.betty-main .contact .map img{
+    height: 300px;
+}   
+}
+@media screen and (max-width:426px){
+.betty-main .contact .contactcontainer .contactrow .contactbox{
+    width: 100%;
+}  
+}
+@media screen and (max-width:426px){
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox .contacttext{
+    position: absolute;
+    left: 26%;
+}  
+}
+@media screen and (max-width:426px){
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox .contactdetails{
+        margin: 10px;
+}
+}
+@media screen and(max-width:426px) {
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox .msgbox{
+    margin: 10px;
+} 
+}
+@media screen and (max-width:426px){
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox button{
+       display: block;
+}
+}
+
+
+
+/* tablet view */
+/* left side */
+@media screen and (max-width:768px) and (min-width:426px){
+.profilebar {
+        display: none;
+}
+}
+/* right side */
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main {
+        width: 100%;
+}
+}
+/* home section */
+@media screen and (max-width: 768px) and (min-width:426px){
+.betty-main .betty-home button {
+        display:block;
+        margin-top: 10px;
+        position: absolute;
+        z-index: 1;
+}
+}
+/* testimonial section */
+@media screen and (max-width: 768px) and (min-width:426px){
+.betty-main .testimonial {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+}
+/* brands section */
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main .brands .brandscontainer .brandsrow .brandsbox{
+        width: 50%;
+}
+}
+/* services section */
+@media screen and (max-width: 768px) and (min-width:426px){
+.betty-main .services h3 {
+        margin-top: 15px;
+        font-size: 30px;
+}
+}
+@media screen and (max-width: 768px) and (min-width:426px){
+.betty-main .services h4 {
+        font-size: 20px;
+}
+}
+@media screen and (max-width: 768px) and (min-width:426px){
+.betty-main .services .servicescontainer .servicesrow .servicesbox {
+        width: 50%;
+}
+}
+/* team section */
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox{
+            text-align: center;
+            height: 335px;
+}
+}
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox h2{
+            position: absolute;
+            top: 24%;
+            left: 56%;
+}
+}
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox p{
+            position: absolute;
+            top: 32%;
+            left: 56%;
+}
+}
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main .team .teamcontainer .teamrow .teambox .teamsubbox .socialbar{
+        position: absolute;
+        top:74%;
+        left: 44%;
+}
+}
+/* blog section */
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main .blog .blogboxs .btn{
+    position: absolute;
+    top: 29%;
+    left: 84%;
+    width: -18%;
+    width: 6%;
+    height: 35px;
+}
+}
+/* contact section */
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox .contacttext{
+        position: absolute;
+        left: 16%;
+}  
+}
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox .contactdetails{
+            margin: 5px;
+}
+}
+@media screen and(max-width:768px) and (min-width:426px) {
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox .msgbox{
+        margin: 5px;
+} 
+}
+@media screen and (max-width:768px) and (min-width:426px){
+.betty-main .contact .contactcontainer .contactrow .contactbox .contactsubbox button{
+           display: block;
+}
+}
